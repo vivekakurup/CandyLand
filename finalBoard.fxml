@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#moveCircle" prefHeight="661.0" prefWidth="754.0" style="-fx-background-size: 600; -fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.candy.initSceneController">
+   <children>
+      <ImageView fitHeight="72.0" fitWidth="48.0" layoutX="209.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../peanut.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="80.0" layoutX="11.0" layoutY="513.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../green.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="80.0" layoutX="42.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gingerbread.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="72.0" layoutX="478.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../redthing.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="63.0" layoutX="94.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fairy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="54.0" layoutX="51.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../green%20lollipop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="123.0" fitWidth="123.0" layoutX="436.0" layoutY="510.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../princess.png" />
+         </image>
+      </ImageView>
+      <Rectangle id="rect3" fx:id="r3" arcHeight="5.0" arcWidth="5.0" fill="#21aeff" height="54.0" layoutX="231.0" layoutY="593.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect42" fx:id="r42" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="72.0" layoutX="15.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+      <Rectangle id="rect44" fx:id="r44" arcHeight="5.0" arcWidth="5.0" fill="#ffdc21" height="52.0" layoutX="67.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle id="rect47" fx:id="r47" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="52.0" layoutX="234.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <ImageView fitHeight="174.0" fitWidth="156.0" layoutX="583.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../king.png" />
+         </image>
+      </ImageView>
+      <Rectangle id="rect31" fx:id="r31" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="66.0" layoutX="522.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect25" fx:id="r25" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="57.0" layoutX="182.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle id="rect19" fx:id="r19" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="59.0" layoutX="69.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect13" fx:id="r13" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="57.0" layoutX="424.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle id="rect7" fx:id="r7" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="54.0" layoutX="432.0" layoutY="594.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+      <Rectangle id="rect1" fx:id="r1" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="54.0" layoutX="124.0" layoutY="593.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect38" fx:id="r38" arcHeight="5.0" arcWidth="5.0" fill="#ffdc21" height="57.0" layoutX="239.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect32" fx:id="r32" arcHeight="5.0" arcWidth="5.0" fill="#ffdc21" height="66.0" layoutX="522.0" layoutY="248.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect26" fx:id="r26" arcHeight="5.0" arcWidth="5.0" fill="#ffdc21" height="57.0" layoutX="239.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <Rectangle id="rect20" fx:id="r20" arcHeight="5.0" arcWidth="5.0" fill="#ffdc21" height="66.0" layoutX="14.0" layoutY="435.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+      <Rectangle id="rect2" fx:id="r2" arcHeight="5.0" arcWidth="5.0" fill="#ffdc21" height="54.0" layoutX="179.0" layoutY="593.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+      <Rectangle id="rect48" fx:id="r48" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="52.0" layoutX="287.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect36" fx:id="r36" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="57.0" layoutX="350.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle id="rect30" fx:id="r30" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="57.0" layoutX="466.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect18" fx:id="r18" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="59.0" layoutX="126.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect12" fx:id="r12" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="57.0" layoutX="483.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <Rectangle id="rect0" fx:id="r0" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="54.0" layoutX="72.0" layoutY="593.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect6" fx:id="r6" arcHeight="5.0" arcWidth="5.0" fill="#ff1800" height="54.0" layoutX="379.0" layoutY="594.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect35" fx:id="r35" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="57.0" layoutX="404.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <Rectangle id="rect41" fx:id="r41" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="56.0" layoutX="68.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <Rectangle id="rect23" fx:id="r23" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="57.0" layoutX="68.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <Rectangle id="rect17" fx:id="r17" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="59.0" layoutX="181.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle id="rect11" fx:id="r11" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="72.0" layoutX="541.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect5" fx:id="r5" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="54.0" layoutX="328.0" layoutY="594.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+      <Rectangle id="rect9" fx:id="r9" arcHeight="5.0" arcWidth="5.0" fill="#21aeff" height="68.0" layoutX="542.0" layoutY="580.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect21" fx:id="r21" arcHeight="5.0" arcWidth="5.0" fill="#21aeff" height="54.0" layoutX="15.0" layoutY="384.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect27" fx:id="r27" arcHeight="5.0" arcWidth="5.0" fill="#21aeff" height="57.0" layoutX="298.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="52.0" />
+      <Rectangle id="rect45" fx:id="r45" arcHeight="5.0" arcWidth="5.0" fill="#21aeff" height="52.0" layoutX="124.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect46" fx:id="r46" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="52.0" layoutX="179.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <ImageView fitHeight="72.0" fitWidth="80.0" layoutX="340.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../brown%20.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="52.0" layoutX="666.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../build/resources/main/candycane.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="588.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../clown.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="49.0" layoutX="9.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../green%20lollipop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="72.0" layoutX="268.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../weirdlady.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="109.0" layoutY="552.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../yelow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="81.0" layoutY="513.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../purple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="44.0" layoutX="241.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../yelow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="42.0" layoutX="31.0" layoutY="603.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../purple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="49.0" layoutX="278.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../purple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="90.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../yelow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="98.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../purple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="49.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../yelow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="39.0" layoutX="244.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../green%20lollipop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="157.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../green%20lollipop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="63.0" layoutX="630.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../build/resources/main/candycane.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="42.0" layoutX="648.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../build/resources/main/candycane.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backOfCard" fitHeight="174.0" fitWidth="130.0" layoutX="615.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backOfCard.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" alignment="CENTER" layoutX="620.0" layoutY="412.0" mnemonicParsing="false" onAction="#getNextCard" style="-fx-background-color: Black; -fx-border-color: Red;" text="Pick a Card" textFill="WHITE">
+         <font>
+            <Font name="Songti SC Black" size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <Rectangle id="rect40" fx:id="r40" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="56.0" layoutX="124.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect34" fx:id="r34" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="57.0" layoutX="464.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect22" fx:id="r22" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="66.0" layoutX="15.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect28" fx:id="r28" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="57.0" layoutX="349.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle id="rect16" fx:id="r16" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="57.0" layoutX="231.0" layoutY="443.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <Rectangle id="rect10" fx:id="r10" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="66.0" layoutX="542.0" layoutY="515.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect4" fx:id="r4" arcHeight="5.0" arcWidth="5.0" fill="#f56820" height="54.0" layoutX="278.0" layoutY="593.0" stroke="BLACK" strokeType="INSIDE" width="52.0" />
+      <Rectangle id="rect8" fx:id="r8" arcHeight="5.0" arcWidth="5.0" fill="#f5c0eb" height="54.0" layoutX="485.0" layoutY="594.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+      <Rectangle id="rect24" fx:id="r24" arcHeight="5.0" arcWidth="5.0" fill="#f5c0eb" height="57.0" layoutX="126.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+      <Rectangle id="rect43" fx:id="r43" arcHeight="5.0" arcWidth="5.0" fill="#f5c0eb" height="72.0" layoutX="15.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+      <Rectangle id="rect15" fx:id="r15" arcHeight="5.0" arcWidth="5.0" fill="#f5c0eb" height="56.0" layoutX="289.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="72.0" />
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="141.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../lollipop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="503.0" layoutY="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../newicecream.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="51.0" layoutX="184.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../build/resources/main/newcandycane.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="35.0" layoutX="307.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../cinnamon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="26.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../cookie.png" />
+         </image>
+      </ImageView>
+      <Rectangle id="rect29" fx:id="r29" arcHeight="5.0" arcWidth="5.0" fill="#21bc2e" height="57.0" layoutX="404.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <ImageView fitHeight="37.0" fitWidth="35.0" layoutX="414.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../licspace.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="552.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../licspace.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="49.0" layoutX="78.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../licspace.png" />
+         </image>
+      </ImageView>
+      <Rectangle id="rect39" fx:id="r39" arcHeight="5.0" arcWidth="5.0" fill="#f5c0eb" height="56.0" layoutX="182.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle id="rect37" fx:id="r37" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="57.0" layoutX="298.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle id="rect33" fx:id="r33" arcHeight="5.0" arcWidth="5.0" fill="#f5c0eb" height="66.0" layoutX="522.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="57.0" />
+      <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="534.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../newcandycane.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="28.0" layoutX="200.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../yogurt.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" layoutX="180.0" layoutY="498.0" stroke="#eeeaea" strokeType="INSIDE" strokeWidth="0.0" width="52.0">
+         <fill>
+            <LinearGradient endX="0.501187648456057" endY="0.5676959619952494" startX="0.47980997624703087" startY="0.10451306413301663">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12941177189350128" green="0.7372549176216125" blue="0.18039216101169586" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.8627451062202454" blue="0.12941177189350128" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" layoutX="184.0" layoutY="241.0" stroke="TRANSPARENT" strokeType="INSIDE" width="56.0">
+         <fill>
+            <LinearGradient endX="0.5201900237529691" endY="0.8907363420427553" startX="0.5130641330166271" startY="0.4750593824228029">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9607843160629272" green="0.7529411911964417" blue="0.9215686321258545" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7764706015586853" green="0.24705882370471954" blue="0.8941176533699036" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Circle fx:id="pawn1" layoutX="100.0" layoutY="619.0" onMouseClicked="#moveCircle" radius="14.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0" proportional="false">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0803999975323677" green="0.6700000166893005" blue="0.3545452356338501" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Circle>
+      <ImageView fitHeight="142.0" fitWidth="420.0" layoutX="169.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../title.png" />
+         </image>
+      </ImageView>
+      <Rectangle id="rect14" fx:id="r14" arcHeight="5.0" arcWidth="5.0" fill="#ffdc21" height="57.0" layoutX="361.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <ImageView fitHeight="52.0" fitWidth="37.0" layoutX="424.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../peanut.png" />
+         </image>
+      </ImageView>
+      <Rectangle id="rect50" fx:id="r50" arcHeight="5.0" arcWidth="5.0" height="54.0" layoutX="396.0" layoutY="101.0" stroke="BLACK" strokeType="INSIDE" width="56.0">
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0" proportional="false" startX="1.0" startY="0.42857142857142855">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8999999761581421" green="0.027000000700354576" blue="0.41067516803741455" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle id="rect49" fx:id="r49" arcHeight="5.0" arcWidth="5.0" fill="#c63fe4" height="54.0" layoutX="343.0" layoutY="101.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+   </children>
+</AnchorPane>
